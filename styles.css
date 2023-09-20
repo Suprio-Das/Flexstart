@@ -1,0 +1,17 @@
+/* google fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* primary styles */
+body{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px !important;
+}
+
+/* nav bar styles */
+.navbar-brand{
+    font-weight: bold;
+    color: rgb(3, 83, 230) !important;
+}
+.nav-link{
+    color:lightcoral !important;
+}
