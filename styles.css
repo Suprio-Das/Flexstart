@@ -5,13 +5,23 @@
 body{
     font-family: 'Poppins', sans-serif !important;
     font-size: 18px !important;
+    background-color: aliceblue;
+}
+/* common color */
+.common-color{
+    color: #012970;
+}
+.common-btn{
+    background-color: #4154f1 !important;
+    /* padding: 8px !important; */
+    color: white !important;
 }
 
 /* nav bar styles */
 .navbar-brand{
     font-weight: bold;
-    color: rgb(3, 83, 230) !important;
+    color: #4154f1 !important;
 }
 .nav-link{
-    color:lightcoral !important;
+    color:#4154f1 !important;
 }
