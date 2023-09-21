@@ -16,7 +16,11 @@ body{
     /* padding: 8px !important; */
     color: white !important;
 }
-
+.common-btn-lg{
+    background-color: #4154f1 !important;
+    padding: 8px !important;
+    color: white !important;
+}
 /* nav bar styles */
 .navbar-brand{
     font-weight: bold;
