@@ -33,18 +33,40 @@ body{
 }
 /* value card styles */
 .value-card-1:hover{
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px !important;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -20px 20px, rgba(240, 46, 170, 0.2) -20px 20px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px !important;
     transition-duration: 0.5s;
 }
 .value-card-2:hover{
-    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px !important;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 20px, rgba(240, 46, 170, 0.2) 0px 20px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px !important;
     transition-duration: 0.5s;
 }
 .value-card-3:hover{
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px !important;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 20px 20px, rgba(240, 46, 170, 0.2) 20px 20px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px !important;
     transition-duration: 0.5s;
 }
 /* count section styles */
 .count-icons{
     width: 30px;
+}
+
+/* font awesome styles */
+.check-icon:hover{
+    background-color: #4154f1;
+}
+.check-box{
+    width: 24px;
+    height: 100%;
+    /* background-color: #4154f1; */
+    border: 1px solid gray;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
+}
+.feature-card:hover{
+    .check-box{
+        background-color: green;
+        color: white;
+        transition: 0.3s;
+    }
 }
